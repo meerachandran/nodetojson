@@ -1,0 +1,9 @@
+name: Node page json
+type: module
+description: 'Returns the json values of the content type page.'
+package: 'custom'
+dependencies:
+  - drupal:serialization
+core: '8.x'
+version: '8.1.0'
+datestamp: 1556006160

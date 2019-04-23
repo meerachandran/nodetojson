@@ -1,0 +1,7 @@
+node_page_json.get_json:
+  path: 'page_json/{api_key}/{nid}'
+  defaults:
+   _controller: '\Drupal\node_page_json\Controller\PageJsonController::getPageJson'
+   _title: 'Json representaion of the give node.'
+  requirements:
+   _permission: 'generate_page_json'
